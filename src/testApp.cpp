@@ -55,8 +55,8 @@ void testApp::setup(){
     cam.setPosition(0,0,0);
 
     str = "サンプルテロップ";
-	//font.loadFont("mplus-1c-regular.ttf", 38, true);
-    font.loadFont("JiyunoTsubasa.ttf", 38, true);
+	font.loadFont("mplus-1c-regular.ttf", 42, true);
+    //font.loadFont("JiyunoTsubasa.ttf", 42, true);
     
     //allocate our fbos.
 	rgbaFbo.allocate(1024, 200, GL_RGBA);
